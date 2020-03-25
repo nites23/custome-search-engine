@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#b').click(function(){
+            
+                var ser=document.getElementById('site').value;
+               
+                if(ser!=''){
+                     document.write();
+                        location.replace('https://www.google.co.in/search?q='+ser);
+                }
+                else{
+                    location.reload();
+                }
+                
+               });
+        });
+    
+    </script>
+    <style type="text/css">
+        BODY{
+            background-image: url(tree.jpg); 
+            
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        #site{
+            height: 25px;
+            width: 200px;
+        }
+        button{
+            height: 25px;
+            width: 75px;
+        }
+    </style>
+<TITLE>
+Custom Search Engine
+</TITLE>
+</HEAD>
+<BODY>
+   
+<br>
+    <br><br><br><br><br><br><br><br><br>
+<center>
+    <b>
+<H1>
+    
+<font size="14">
+<font color="blue">G</font>
+<font color="orange">o</font>
+<font color="yellow">o</font>
+<font color="green">g</font>
+<font color="red">l</font>
+<font color="blue">e</font>
+    </font>
+    </H1></b>
+<br>
+    
+          &nbsp;&nbsp;
+<input type="text" id="site"/ >
+        
+<button type="submit" id="b">Search</button>
+    <script type="text/javascript">
+    
+        
+    </script>
+</center>
+
+</BODY>
+</HTML>
